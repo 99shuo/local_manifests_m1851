@@ -5,6 +5,7 @@
     <!-- Remotes -->
     <remote name="KNKJ55" fetch="https://github.com/KNKJ55" clone-depth="1" />
     <remote name="jmpfbmx" fetch="https://github.com/jmpfbmx" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
     <!-- Removals -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -24,5 +25,9 @@
 
     <!-- Vendor - Common -->
     <project path="vendor/bq/sdm660-common" name="proprietary_vendor_bq_sdm660-common" remote="jmpfbmx" revision="lineage-20" />
+
+    <!-- Hardware -->
+    <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
+    <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
 
 </manifest>
