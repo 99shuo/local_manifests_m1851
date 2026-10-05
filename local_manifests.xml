@@ -27,7 +27,7 @@
     <project path="vendor/bq/sdm660-common" name="proprietary_vendor_bq_sdm660-common" remote="jmpfbmx" revision="lineage-20" />
 
     <!-- Hardware -->
-    <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
-    <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-20.0-caf-msm8998" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-msm8998" />
 
 </manifest>
