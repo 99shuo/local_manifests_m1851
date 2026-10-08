@@ -4,6 +4,7 @@
 
     <!-- Remotes -->
     <remote name="KNKJ55" fetch="https://github.com/KNKJ55" clone-depth="1" />
+    <remote name="99shuo" fetch="https://github.com/99shuo" clone-depth="1" />
     <remote name="jmpfbmx" fetch="https://github.com/jmpfbmx" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
@@ -16,7 +17,7 @@
     <project path="device/bq/zangya" name="android_device_bq_zangya" remote="jmpfbmx" revision="lineage-20" />
 
     <!-- Device - Common -->
-    <project path="device/bq/sdm660-common" name="android_device_bq_sdm660-common" remote="KNKJ55" revision="lineage-20" />
+    <project path="device/bq/sdm660-common" name="android_device_bq_sdm660-common" remote="99shuo" revision="lineage-20" />
 
     <!-- Kernel -->
     <project path="kernel/bq/zangya" name="android_kernel_bq_sdm660" remote="jmpfbmx" revision="lineage-20" />
